@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class Worker : MonoBehaviour, InteractableInterface
 {
-    [SerializeField] private Transform head;
-
     private Quaternion defaultPos;
 
     public string interactableText = "Talk";
@@ -23,25 +21,24 @@ public class Worker : MonoBehaviour, InteractableInterface
 
     private void Awake()
     {
-        defaultPos = head.rotation;
+        defaultPos = transform.rotation;
     }
 
     private void Update()
     {
-        Vector3 direction = Camera.main.transform.position - head.position;
+        Vector3 direction = Camera.main.transform.position - transform.position;
         direction.y = 0;
 
-        float distance = Vector3.Distance(head.position, Camera.main.transform.position);
+        float distance = Vector3.Distance(transform.position, Camera.main.transform.position);
 
-        if( distance < 3f)
+        if(distance < 3f)
         {
             Quaternion targetRotation = Quaternion.LookRotation(direction);
-            head.rotation = Quaternion.Slerp(head.rotation, targetRotation, Time.deltaTime * 5f);
-            head.rotation = Quaternion.Euler(-90f, head.rotation.eulerAngles.y, head.rotation.eulerAngles.z);
+            transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * 5f);
         } 
         else
         {
-            head.rotation = Quaternion.Slerp(head.rotation, defaultPos, Time.deltaTime * 5f);
+            transform.rotation = Quaternion.Slerp(transform.rotation, defaultPos, Time.deltaTime * 5f);
         }
     }
 }

@@ -133,7 +133,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12ad9cf8175eada428a8f8d3bcd80c00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  head: {fileID: 640472884885518346}
   interactableText: Talk
 --- !u!95 &1579250899395481726
 Animator:
@@ -216,14 +215,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1683247140025783854}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.50000006, y: -0.4999999, z: -0.5, w: 0.5}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -0.00022411346, y: 1.3353629, z: 0.009486198}
   m_LocalScale: {x: 0.41637135, y: 0.41637135, z: 0.41637135}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 640472884885518346}
   m_Father: {fileID: 957646752277147527}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!1 &3854768123633060458
 GameObject:
   m_ObjectHideFlags: 0
@@ -250,13 +249,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3854768123633060458}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+  m_LocalRotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
   m_LocalPosition: {x: -0.0000000044341997, y: 0.59430134, z: -0.00000003097559}
   m_LocalScale: {x: 0.26566094, y: 0.26590547, z: 0.17208315}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 957646752277147527}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 90}
 --- !u!33 &2012342855987177639
 MeshFilter:
   m_ObjectHideFlags: 0
