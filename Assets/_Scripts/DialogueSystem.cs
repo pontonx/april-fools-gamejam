@@ -71,7 +71,7 @@ public class DialogueSystem : MonoBehaviour
         foreach(char letter in dialogueLine.line.ToCharArray())
         {
             dialogueText.text += letter;
-            GameManager.instance.clickSound.Play();
+            //GameManager.instance.clickSound.Play();
             yield return new WaitForSeconds(typingSpeed);
         }
     }
@@ -80,6 +80,5 @@ public class DialogueSystem : MonoBehaviour
         isDialogueActive = false;
         StopAllCoroutines();
         dialogueText.text = "";
-        Camera.main.fieldOfView = 60f;
     }
 }
