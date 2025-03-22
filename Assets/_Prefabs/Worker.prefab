@@ -95,7 +95,6 @@ GameObject:
   - component: {fileID: 957646752277147527}
   - component: {fileID: 7767308194086977745}
   - component: {fileID: 1579250899395481726}
-  - component: {fileID: 6267549811918295774}
   - component: {fileID: 5750924026780977284}
   - component: {fileID: 851435155637705388}
   m_Layer: 0
@@ -157,20 +156,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &6267549811918295774
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 899529659453491446}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 12ad9cf8175eada428a8f8d3bcd80c00, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  head: {fileID: 640472884885518346}
-  interactableText: Talk
 --- !u!65 &5750924026780977284
 BoxCollider:
   m_ObjectHideFlags: 0

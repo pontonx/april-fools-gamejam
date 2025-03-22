@@ -52,6 +52,7 @@ public class PlayerInteract : MonoBehaviour
 
             if (hitInfo.collider.TryGetComponent<InteractableInterface>(out InteractableInterface interactable) && heldObject == null)
             {
+
                 // Interact with interactable object
                 if (Input.GetKeyDown(interactKey))
                 {

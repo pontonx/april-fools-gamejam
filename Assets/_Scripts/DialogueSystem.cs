@@ -38,6 +38,8 @@ public class DialogueSystem : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue)
     {
+        if (!this.isActiveAndEnabled) return;
+
         isDialogueActive = true;
 
         lines.Clear();
