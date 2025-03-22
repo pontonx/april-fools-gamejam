@@ -132,6 +132,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 533137817}
     m_Modifications:
+    - target: {fileID: 516744624348829752, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: dialogue.dialogueLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 516744624348829752, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[0].line
+      value: "If I ignore you, maybe you\u2019ll go away..."
+      objectReference: {fileID: 0}
+    - target: {fileID: 516744624348829752, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[1].line
+      value: Nope, still here.
+      objectReference: {fileID: 0}
     - target: {fileID: 4208642945973439656, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -272,15 +287,16 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e53ee52c17d45bc47906c6a05676416f, type: 2}
+  m_sharedMaterial: {fileID: -5071317747187353175, guid: e53ee52c17d45bc47906c6a05676416f,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4282106623
+  m_fontColor: {r: 1, g: 0.7592473, b: 0.23113209, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -367,6 +383,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 533137817}
     m_Modifications:
+    - target: {fileID: 516744624348829752, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: dialogue.dialogueLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 516744624348829752, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[0].line
+      value: Now? Seriously?
+      objectReference: {fileID: 0}
+    - target: {fileID: 516744624348829752, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[1].line
+      value: I'm working.
+      objectReference: {fileID: 0}
     - target: {fileID: 4208642945973439656, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -518,6 +549,12 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 533137817}
     m_Modifications:
+    - target: {fileID: 516744624348829752, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[0].line
+      value: "Great. My productivity was already at zero, and now it\u2019s in the
+        negatives."
+      objectReference: {fileID: 0}
     - target: {fileID: 4208642945973439656, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1214,6 +1251,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 533137817}
     m_Modifications:
+    - target: {fileID: 516744624348829752, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: dialogue.dialogueLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 516744624348829752, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[0].line
+      value: 'Fine, do whatever. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 516744624348829752, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[1].line
+      value: "Just don\u2019t touch my coffee."
+      objectReference: {fileID: 0}
     - target: {fileID: 4208642945973439656, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1402,6 +1454,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 533137817}
     m_Modifications:
+    - target: {fileID: 516744624348829752, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: dialogue.dialogueLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 516744624348829752, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[0].line
+      value: "I didn\u2019t sign up for this..."
+      objectReference: {fileID: 0}
+    - target: {fileID: 516744624348829752, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[1].line
+      value: "oh wait, I did. It\u2019s called a job."
+      objectReference: {fileID: 0}
     - target: {fileID: 4208642945973439656, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1534,6 +1601,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 533137817}
     m_Modifications:
+    - target: {fileID: 516744624348829752, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[0].line
+      value: "Not now, I\u2019m busy pretending to work."
+      objectReference: {fileID: 0}
     - target: {fileID: 4208642945973439656, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1629,6 +1701,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 533137817}
     m_Modifications:
+    - target: {fileID: 516744624348829752, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: dialogue.dialogueLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 516744624348829752, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[0].line
+      value: 'Not now, the boss is watching. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 516744624348829752, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[1].line
+      value: Act productive.
+      objectReference: {fileID: 0}
     - target: {fileID: 4208642945973439656, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1718,6 +1805,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 533137817}
     m_Modifications:
+    - target: {fileID: 516744624348829752, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[0].line
+      value: '*sigh* Another day, another distraction.'
+      objectReference: {fileID: 0}
     - target: {fileID: 4208642945973439656, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1813,6 +1905,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 533137817}
     m_Modifications:
+    - target: {fileID: 516744624348829752, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[0].line
+      value: "I promised myself I\u2019d be productive... but here we are."
+      objectReference: {fileID: 0}
     - target: {fileID: 4208642945973439656, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1902,6 +1999,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 533137817}
     m_Modifications:
+    - target: {fileID: 516744624348829752, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[0].line
+      value: "Whatever this is, I\u2019m sure HR wouldn\u2019t approve."
+      objectReference: {fileID: 0}
     - target: {fileID: 4208642945973439656, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -2123,6 +2225,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 516744624348829752, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: dialogue.dialogueLines.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 516744624348829752, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[0].line
+      value: 'Do I get a raise for this? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 516744624348829752, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[1].line
+      value: No?
+      objectReference: {fileID: 0}
+    - target: {fileID: 516744624348829752, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[2].line
+      value: Then bye.
       objectReference: {fileID: 0}
     - target: {fileID: 4208642945973439656, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
         type: 3}
@@ -2449,6 +2571,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 533137817}
     m_Modifications:
+    - target: {fileID: 516744624348829752, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[0].line
+      value: "What do you want? If it\u2019s pizza, I\u2019m in."
+      objectReference: {fileID: 0}
     - target: {fileID: 4208642945973439656, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -2544,6 +2671,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 533137817}
     m_Modifications:
+    - target: {fileID: 516744624348829752, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: dialogue.dialogueLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 516744624348829752, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[0].line
+      value: "I can\u2019t talk, important stuff..."
+      objectReference: {fileID: 0}
+    - target: {fileID: 516744624348829752, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[1].line
+      value: like memes and coffee.
+      objectReference: {fileID: 0}
     - target: {fileID: 4208642945973439656, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -2633,6 +2775,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 533137817}
     m_Modifications:
+    - target: {fileID: 516744624348829752, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[0].line
+      value: My brain is on vacation. Try again later.
+      objectReference: {fileID: 0}
     - target: {fileID: 4208642945973439656, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3062,6 +3209,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 533137817}
     m_Modifications:
+    - target: {fileID: 516744624348829752, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: dialogue.dialogueLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 516744624348829752, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[0].line
+      value: I have a report to finish...
+      objectReference: {fileID: 0}
+    - target: {fileID: 516744624348829752, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[1].line
+      value: "which I haven\u2019t even started."
+      objectReference: {fileID: 0}
     - target: {fileID: 4208642945973439656, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3151,6 +3313,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 533137817}
     m_Modifications:
+    - target: {fileID: 516744624348829752, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[0].line
+      value: Just let me finish this one thing...
+      objectReference: {fileID: 0}
     - target: {fileID: 4208642945973439656, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3244,6 +3411,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 533137817}
     m_Modifications:
+    - target: {fileID: 516744624348829752, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: dialogue.dialogueLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 516744624348829752, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[0].line
+      value: "Can\u2019t you see I\u2019m busy? "
+      objectReference: {fileID: 0}
+    - target: {fileID: 516744624348829752, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[1].line
+      value: Staring at my screen like a pro.
+      objectReference: {fileID: 0}
     - target: {fileID: 4208642945973439656, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3431,6 +3613,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 533137817}
     m_Modifications:
+    - target: {fileID: 516744624348829752, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[0].line
+      value: What are you up to this time?
+      objectReference: {fileID: 0}
     - target: {fileID: 4208642945973439656, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3520,6 +3707,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 533137817}
     m_Modifications:
+    - target: {fileID: 516744624348829752, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: dialogue.dialogueLines.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 516744624348829752, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[0].line
+      value: Give me five minutes...
+      objectReference: {fileID: 0}
+    - target: {fileID: 516744624348829752, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[1].line
+      value: or an hour...
+      objectReference: {fileID: 0}
+    - target: {fileID: 516744624348829752, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: dialogue.dialogueLines.Array.data[2].line
+      value: or maybe tomorrow.
+      objectReference: {fileID: 0}
     - target: {fileID: 4208642945973439656, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
         type: 3}
       propertyPath: m_StaticEditorFlags
