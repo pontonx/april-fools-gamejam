@@ -5,6 +5,7 @@ using UnityEngine;
 public class Broom : MonoBehaviour
 {
     [SerializeField] private List<GameObject> objectsToClean;
+    [SerializeField] private GameObject cup;
 
     private void Update()
     {
@@ -25,6 +26,7 @@ public class Broom : MonoBehaviour
         {
             TaskManager.instance.RemoveTask();
             TaskManager.instance.AddTask("Make a coffee");
+            cup.SetActive(true);
             Destroy(this);
         }
     }
