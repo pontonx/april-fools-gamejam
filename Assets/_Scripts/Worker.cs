@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Worker : MonoBehaviour, InteractableInterface
 {
+    [SerializeField] private Animator handsAnim;
+
     private Quaternion defaultPos;
 
     public string interactableText = "Talk";
@@ -33,11 +35,13 @@ public class Worker : MonoBehaviour, InteractableInterface
 
         if(distance < 3f)
         {
+            handsAnim.enabled = false;
             Quaternion targetRotation = Quaternion.LookRotation(direction);
             transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * 5f);
         } 
         else
         {
+            handsAnim.enabled = true;
             transform.rotation = Quaternion.Slerp(transform.rotation, defaultPos, Time.deltaTime * 5f);
         }
     }

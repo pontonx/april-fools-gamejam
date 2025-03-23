@@ -4613,8 +4613,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e53ee52c17d45bc47906c6a05676416f, type: 2}
+  m_sharedMaterial: {fileID: -5071317747187353175, guid: e53ee52c17d45bc47906c6a05676416f,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6948,7 +6949,7 @@ PrefabInstance:
     - target: {fileID: 4166726125069559210, guid: eb07839cef3d4544793e009ac01af54e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.2
+      value: -5.75
       objectReference: {fileID: 0}
     - target: {fileID: 4166726125069559210, guid: eb07839cef3d4544793e009ac01af54e,
         type: 3}
@@ -6958,7 +6959,7 @@ PrefabInstance:
     - target: {fileID: 4166726125069559210, guid: eb07839cef3d4544793e009ac01af54e,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.51
+      value: -0.472
       objectReference: {fileID: 0}
     - target: {fileID: 4166726125069559210, guid: eb07839cef3d4544793e009ac01af54e,
         type: 3}
@@ -8798,6 +8799,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 36304541239495266, guid: 55628f5a7bad18a4cac7fd4955d0d6d2, type: 3}
+    - {fileID: 485761245304051175, guid: 55628f5a7bad18a4cac7fd4955d0d6d2, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 55628f5a7bad18a4cac7fd4955d0d6d2, type: 3}
