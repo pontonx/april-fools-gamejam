@@ -15,8 +15,6 @@ public class TimeManager : MonoBehaviour
         {
             instance = this;
         }
-
-        
     }
 
     public void ResumeTime()
