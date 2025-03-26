@@ -14,7 +14,10 @@ public class Coffe : MonoBehaviour, InteractableInterface
     public void Interact()
     {
         Destroy(gameObject);
-        TaskManager.instance.RemoveTask();
-        TaskManager.instance.AddTask("Go to the bathroom");
+        if(TaskManager.instance.taskIndex == 3)
+        {
+            TaskManager.instance.RemoveTask();
+            TaskManager.instance.AddTask("Go to the bathroom");
+        }
     }
 }

@@ -7,6 +7,8 @@ public class TimeManager : MonoBehaviour
 {
     public static TimeManager instance;
 
+    public bool timeStopped = false;
+
     [SerializeField] private List<string> scriptNamesToDisable;
 
     private void Awake()
@@ -19,6 +21,8 @@ public class TimeManager : MonoBehaviour
 
     public void ResumeTime()
     {
+        timeStopped = false;
+
         foreach (string scriptName in scriptNamesToDisable)
         {
             Type scriptType = Type.GetType(scriptName);
@@ -37,6 +41,8 @@ public class TimeManager : MonoBehaviour
     }
     public void StopTime()
     {
+        timeStopped = true;
+
         foreach (string scriptName in scriptNamesToDisable)
         {
             Type scriptType = Type.GetType(scriptName);

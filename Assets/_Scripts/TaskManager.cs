@@ -13,6 +13,8 @@ public class TaskManager : MonoBehaviour
 {
     public static TaskManager instance;
 
+    public int taskIndex = 1;
+
     public List<Task> tasks = new List<Task>();
 
     [SerializeField] private Transform TaskHolder;
@@ -54,6 +56,7 @@ public class TaskManager : MonoBehaviour
         Task newTask = new Task();
         newTask.name = name;
         tasks.Add(newTask);
+        taskIndex++;
         UpdateTasks();
     }
 
