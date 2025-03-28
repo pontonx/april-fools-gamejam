@@ -900,12 +900,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2129357273}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &118222518 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 9100235241880180681, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
-    type: 3}
-  m_PrefabInstance: {fileID: 2129357273}
-  m_PrefabAsset: {fileID: 0}
 --- !u!54 &118222524
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11099,9 +11093,7 @@ MonoBehaviour:
   - DialogueSystem
   - RotateScript
   - CoffeMachine
-  scriptsToEnable:
-  - scriptHolder: {fileID: 118222518}
-    scriptName: Interactable
+  scriptsToAdd: []
 --- !u!114 &1466780692
 MonoBehaviour:
   m_ObjectHideFlags: 0
