@@ -11,6 +11,9 @@ public class Coffe : MonoBehaviour, InteractableInterface
         set => interactableText = value;
     }
 
+    public bool interactableEnabled;
+    public bool InteractableEnabled { get => interactableEnabled; set => interactableEnabled = value; }
+
     public void Interact()
     {
         Destroy(gameObject);

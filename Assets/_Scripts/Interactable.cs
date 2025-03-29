@@ -27,6 +27,9 @@ public class Interactable : MonoBehaviour, InteractableInterface, IPickupable
         set => interactableText = value;
     }
 
+    public bool interactableEnabled;
+    public bool InteractableEnabled { get => interactableEnabled; set => interactableEnabled = value; }
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();

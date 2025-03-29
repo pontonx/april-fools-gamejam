@@ -15,6 +15,8 @@ public class Worker : MonoBehaviour, InteractableInterface
         set => interactableText = value;
     }
 
+    public bool interactableEnabled = true;
+    public bool InteractableEnabled { get => interactableEnabled; set => interactableEnabled = value; }
 
     public void Interact()
     {

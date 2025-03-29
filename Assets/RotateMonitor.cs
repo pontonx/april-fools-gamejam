@@ -11,6 +11,8 @@ public class RotateMonitor : MonoBehaviour, InteractableInterface
         set => interactableText = value;
     }
 
+    public bool interactableEnabled;
+    public bool InteractableEnabled { get => interactableEnabled; set => interactableEnabled = value; }
     public void Interact()
     {
         StartCoroutine(Rotate());

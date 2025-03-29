@@ -3,13 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[System.Serializable]
-public class Script
-{
-    public Transform scriptHolder;
-    public String scriptName;
-}
-
 public class TimeManager : MonoBehaviour
 {
     public static TimeManager instance;
@@ -17,7 +10,7 @@ public class TimeManager : MonoBehaviour
     public bool timeStopped = false;
 
     [SerializeField] private List<string> scriptNamesToDisable;
-    [SerializeField] private List<Script> scriptsToAdd;
+    [SerializeField] private List<GameObject> scriptsToEnable;
 
     private void Awake()
     {
@@ -43,9 +36,11 @@ public class TimeManager : MonoBehaviour
             }
         }
 
-        foreach(Script script in scriptsToAdd)
+        foreach(GameObject script in scriptsToEnable)
         {
-            script.scriptHolder.gameObject.AddComponent(Type.GetType(script.scriptName));
+            if(script.TryGetComponent<InteractableInterface>(out InteractableInterface interactable)) {
+                interactable.InteractableEnabled = true;
+            }
         }
 
         Animator[] animators = FindObjectsOfType<Animator>();
