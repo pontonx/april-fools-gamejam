@@ -23,6 +23,8 @@ public class DialogueSystem : MonoBehaviour
         }
 
         lines = new Queue<DialogueLine>();
+
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     private void Update()
@@ -76,6 +78,22 @@ public class DialogueSystem : MonoBehaviour
             GameManager.instance.dialogueSound.Play();
             yield return new WaitForSeconds(typingSpeed);
         }
+    }
+
+    public void CustomDialogue(string message)
+    {
+        Dialogue newDialogue = new Dialogue();
+        DialogueLine newDialogueLine = new DialogueLine();
+        newDialogueLine.line = message;
+        newDialogue.dialogueLines.Add(newDialogueLine);
+        StartDialogue(newDialogue);
+        StartCoroutine(EndDialogueTimer(5f));
+    }
+
+    IEnumerator EndDialogueTimer(float seconds)
+    {
+        yield return new WaitForSeconds(seconds);
+        EndDialogue();
     }
     void EndDialogue()
     {
