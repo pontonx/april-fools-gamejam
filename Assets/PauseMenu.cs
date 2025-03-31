@@ -35,9 +35,9 @@ public class PauseMenu : MonoBehaviour
         playerMovement.enabled = true;
     }
 
-    public void Exit()
+    public void BackToMenu()
     {
-        Application.Quit();
+        SceneManager.LoadScene(0);
     }
 
     public void Restart()

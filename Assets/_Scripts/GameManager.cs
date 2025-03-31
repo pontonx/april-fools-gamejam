@@ -8,7 +8,6 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
 
     public int finalQuestDone = 0;
-    [SerializeField] private TMP_Text doneText;
 
     public AudioSource dialogueSound;
 
@@ -22,12 +21,17 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
+        if(finalQuestDone == 5)
+        {
+            TaskManager.instance.RemoveTask();
+            TaskManager.instance.AddTask("Destroy the clock!");
+            DialogueSystem.instance.CustomDialogue("Hahaha! You thought I will resume time now. You fool!");
+        }
     }
 
     public void FinishQuest()
     {
         finalQuestDone++;
-        doneText.text = finalQuestDone.ToString();
     }
 
 }

@@ -22,6 +22,7 @@ public class ClockItem : MonoBehaviour, InteractableInterface
         TaskManager.instance.RemoveTask();
         TaskManager.instance.AddTask("What is going on?");
         TimeManager.instance.StopTime();
+        DialogueSystem.instance.CustomDialogue("You idiot! I'm a magic clock, the time has stopped!");
         Destroy(this.gameObject);
     }
 }
