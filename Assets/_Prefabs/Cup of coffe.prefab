@@ -110,6 +110,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactableText: Drink
+  interactableEnabled: 1
+  clockPrefab: {fileID: 3136073371416406575, guid: 4230bcf10e10ac14cb428df8294a8ce0,
+    type: 3}
 --- !u!65 &8966028151786814349
 BoxCollider:
   m_ObjectHideFlags: 0

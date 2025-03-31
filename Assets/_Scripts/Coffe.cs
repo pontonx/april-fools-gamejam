@@ -14,6 +14,8 @@ public class Coffe : MonoBehaviour, InteractableInterface
     public bool interactableEnabled;
     public bool InteractableEnabled { get => interactableEnabled; set => interactableEnabled = value; }
 
+    [SerializeField] private GameObject clockPrefab;
+
     public void Interact()
     {
         Destroy(gameObject);
@@ -21,6 +23,7 @@ public class Coffe : MonoBehaviour, InteractableInterface
         {
             TaskManager.instance.RemoveTask();
             TaskManager.instance.AddTask("Go to the bathroom");
+            Instantiate(clockPrefab);
         }
     }
 }

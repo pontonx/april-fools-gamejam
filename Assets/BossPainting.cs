@@ -2,12 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TurnOffComputer : MonoBehaviour, InteractableInterface
+public class BossPainting : MonoBehaviour, InteractableInterface
 {
-    [SerializeField] private Material blackMaterial;
-    [SerializeField] private MeshRenderer monitorRenderer;
-
-    public string interactableText = "Turn off";
+    public string interactableText = "Draw";
     public string InteractableText
     {
         get => interactableText;
@@ -17,11 +14,19 @@ public class TurnOffComputer : MonoBehaviour, InteractableInterface
     public bool interactableEnabled;
     public bool InteractableEnabled { get => interactableEnabled; set => interactableEnabled = value; }
 
+    [SerializeField] private Material drawedMaterial;
+    private MeshRenderer bossMesh;
+
+    private void Start()
+    {
+        bossMesh = GetComponent<MeshRenderer>();
+    }
+
     public void Interact()
     {
-        Material[] mats = monitorRenderer.materials;
-        mats[1] = blackMaterial;
-        monitorRenderer.materials = mats;
+        Material[] mats = bossMesh.materials;
+        mats[1] = drawedMaterial;
+        bossMesh.materials = mats;
         GameManager.instance.FinishQuest();
         Destroy(this);
     }

@@ -22,6 +22,7 @@ public class RotateMonitor : MonoBehaviour, InteractableInterface
     {
         transform.DOLocalRotate(new Vector3(-90f, 0f, 0f), 1f);
         yield return new WaitForSeconds(1f);
+        GameManager.instance.FinishQuest();
         Destroy(this);
     }
 }

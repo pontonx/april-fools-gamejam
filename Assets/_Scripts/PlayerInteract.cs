@@ -16,13 +16,9 @@ public class PlayerInteract : MonoBehaviour
     public Material outlineMaterial;
 
     [HideInInspector] public List<Material> outlineMaterials;
-    private MeshRenderer previousMesh;
-    private List<Material> prevMat = new List<Material>();
 
     public Transform holdPoint;
     private GameObject heldObject;
-
-    private bool outlineEnabled = false;
 
     void Update()
     {
@@ -60,57 +56,17 @@ public class PlayerInteract : MonoBehaviour
                     interactable.Interact();
                 }
 
-                // Add outline material
-                if (hitInfo.collider.TryGetComponent<MeshRenderer>(out MeshRenderer mesh))
-                {
-                    if(!outlineEnabled)
-                    {
-                        outlineEnabled = true;
-                        foreach(Material mat in mesh.materials)
-                        {
-                            outlineMaterials.Add(mat);
-                            prevMat.Add(mat);
-                        }
-                        outlineMaterials.Add(outlineMaterial);
-                        mesh.SetMaterials(outlineMaterials);
-                    }
-                    previousMesh = mesh;
-                }
-
                 itemNameText.text = interactable.InteractableText;
                 itemNameText.enabled = true;
             }
             else
             {
                 itemNameText.enabled = false;
-                ResetOutline();
             }
         }
         else
         {
             itemNameText.enabled = false;
-            ResetOutline();
-        }
-
-        void ResetOutline()
-        {
-            outlineEnabled = false;
-
-            if (previousMesh != null)
-            {
-                if(prevMat.Contains(outlineMaterial))
-                {
-                    prevMat.Remove(outlineMaterial);
-                }
-                
-                if(prevMat.Count > 0)
-                {
-                    previousMesh.SetMaterials(prevMat);
-                }
-            }
-
-            outlineMaterials.Clear();
-            prevMat.Clear();
         }
     }
 
@@ -119,6 +75,11 @@ public class PlayerInteract : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out hit, range))
         {
+            if(hit.collider.TryGetComponent<InteractableInterface>(out InteractableInterface interactable))
+            {
+                if (!interactable.InteractableEnabled) return;
+            }
+
             IPickupable pickupable = hit.collider.GetComponent<IPickupable>();
             if (pickupable != null)
             {

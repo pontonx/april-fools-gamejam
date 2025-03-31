@@ -18,7 +18,7 @@ public class ClockItem : MonoBehaviour, InteractableInterface
 
     public void Interact()
     {
-        clockObject.SetActive(true);
+        Instantiate(clockObject, Camera.main.transform);
         TaskManager.instance.RemoveTask();
         TaskManager.instance.AddTask("What is going on?");
         TimeManager.instance.StopTime();

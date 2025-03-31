@@ -12,6 +12,8 @@ public class InfectComputer : MonoBehaviour
         {
             monitorRenderer.materials[1].color = Color.green;
             Destroy(collision.gameObject);
+            GameManager.instance.FinishQuest();
+            Destroy(this);
         }
     }
 }

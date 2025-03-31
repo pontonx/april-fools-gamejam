@@ -18,7 +18,7 @@ public class Broom : MonoBehaviour
                     if(TaskManager.instance.taskIndex != 2)
                     {
                         TaskManager.instance.RemoveTask();
-                        TaskManager.instance.AddTask("Clean manager office");
+                        TaskManager.instance.AddTask("Clean office");
                     }
                 }
             }
@@ -28,7 +28,7 @@ public class Broom : MonoBehaviour
         {
             TaskManager.instance.RemoveTask();
             TaskManager.instance.AddTask("Make a coffee");
-            Destroy(this.gameObject);
+            Destroy(this);
         }
     }
 
