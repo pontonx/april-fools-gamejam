@@ -28,6 +28,7 @@ public class BossPainting : MonoBehaviour, InteractableInterface
         mats[1] = drawedMaterial;
         bossMesh.materials = mats;
         GameManager.instance.FinishQuest();
+        AudioManager.instance.Play("spray");
         Destroy(this);
     }
 }

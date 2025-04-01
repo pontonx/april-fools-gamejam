@@ -29,6 +29,7 @@ public class CoffeMachine : MonoBehaviour
     IEnumerator fillCup(GameObject cup)
     {
         particles.Play();
+        AudioManager.instance.Play("coffeemachine");
         yield return new WaitForSeconds(10f);
         particles.Stop();
         GameObject newCup = Instantiate(filledCup, cupHolder);

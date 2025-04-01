@@ -27,6 +27,8 @@ public class TaskManager : MonoBehaviour
             instance = this;
         }
         UpdateTasks();
+
+        AudioManager.instance.Play("yawn");
     }
 
     private void Update()

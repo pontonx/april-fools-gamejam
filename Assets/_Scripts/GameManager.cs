@@ -9,8 +9,6 @@ public class GameManager : MonoBehaviour
 
     public int finalQuestDone = 0;
 
-    public AudioSource dialogueSound;
-
     private void Awake()
     {
         if (instance == null)
@@ -26,7 +24,7 @@ public class GameManager : MonoBehaviour
             FinishQuest();
             TaskManager.instance.RemoveTask();
             TaskManager.instance.AddTask("Destroy the clock!");
-            DialogueSystem.instance.CustomDialogue("Hahaha! You thought I will resume time now. You fool!");
+            DialogueSystem.instance.CustomDialogue("Hahaha! You thought I will resume time now? You fool!");
         }
     }
 

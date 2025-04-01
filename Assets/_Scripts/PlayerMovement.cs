@@ -10,6 +10,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float speed;
     [SerializeField] private float sensitivity;
 
+    [SerializeField] private float stepInterval = 0.5f;
+    private float stepTimer = 0f;
+
     private Vector3 playerMovementInput;
     private Vector2 mouseInput;
     private float xRot;
@@ -33,6 +36,21 @@ public class PlayerMovement : MonoBehaviour
         {
             playerMovementInput.Normalize();
         }
+
+        if(playerBody.velocity.magnitude > 0.1f)
+        {
+            stepTimer += Time.deltaTime;
+            if (stepTimer >= stepInterval)
+            {
+                AudioManager.instance.Play("step", Random.Range(0.8f, 1.2f));
+                stepTimer = 0f;
+            }
+            else if (playerBody.velocity.magnitude < 0.1f) 
+            {
+                stepTimer = 0f;
+            }
+        }
+
         mouseInput = new Vector2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
 
         MovePlayer();

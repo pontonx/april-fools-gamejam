@@ -1462,6 +1462,111 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &829473993
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 829473994}
+  - component: {fileID: 829473995}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &829473994
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 829473993}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -10.51897, y: 0.4877621, z: 3.56918}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &829473995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 829473993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad7d5c0a7742edc4abe15e1257d98358, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: dialogueSound
+    clip: {fileID: 8300000, guid: 2b9249032c9c53047ae7a7af32fce96b, type: 3}
+    volume: 0.1
+    pitch: 0.7
+    source: {fileID: 0}
+    loop: 0
+  - name: typing
+    clip: {fileID: 8300000, guid: 8808b37fc946a674dbe8e480e411ebba, type: 3}
+    volume: 0.05
+    pitch: 0.7
+    source: {fileID: 0}
+    loop: 1
+  - name: splash
+    clip: {fileID: 8300000, guid: 7217d7d022ce64140b4e376ebd2d7af1, type: 3}
+    volume: 0.1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: step
+    clip: {fileID: 8300000, guid: 6c34b81998a2a34488ec571c705d0d19, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Theme
+    clip: {fileID: 8300000, guid: f7515b7ba00ec3243a097be92caec1b5, type: 3}
+    volume: 0.05
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - name: spray
+    clip: {fileID: 8300000, guid: 35a722076452c6345885a76332ad4864, type: 3}
+    volume: 0.1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: laugh
+    clip: {fileID: 8300000, guid: 4bfb51016220fac4baf6a0579329ef0b, type: 3}
+    volume: 0.1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: yawn
+    clip: {fileID: 8300000, guid: db5c83d6b49eae546a4cd728225dbdae, type: 3}
+    volume: 0.2
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: coffeemachine
+    clip: {fileID: 8300000, guid: 1c763935c39925745ab182c458fd288b, type: 3}
+    volume: 0.1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: drink
+    clip: {fileID: 8300000, guid: 1cc0cdd5bd38372448c0913ce1d3e9ea, type: 3}
+    volume: 0.2
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -2514,3 +2619,4 @@ SceneRoots:
   - {fileID: 76846578}
   - {fileID: 321765619}
   - {fileID: 1559324533}
+  - {fileID: 829473994}

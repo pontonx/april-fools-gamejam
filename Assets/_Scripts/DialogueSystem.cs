@@ -75,7 +75,7 @@ public class DialogueSystem : MonoBehaviour
         foreach(char letter in dialogueLine.line.ToCharArray())
         {
             dialogueText.text += letter;
-            GameManager.instance.dialogueSound.Play();
+            AudioManager.instance.Play("dialogueSound");
             yield return new WaitForSeconds(typingSpeed);
         }
     }

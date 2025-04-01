@@ -18,6 +18,8 @@ public class Coffe : MonoBehaviour, InteractableInterface
 
     public void Interact()
     {
+        AudioManager.instance.Play("drink");
+        DialogueSystem.instance.CustomDialogue("I need to go to the toilet...");
         Destroy(gameObject);
         if(TaskManager.instance.taskIndex == 3)
         {

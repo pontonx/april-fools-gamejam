@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Broom : MonoBehaviour
 {
+    [SerializeField] private GameObject particles;
     [SerializeField] private List<GameObject> objectsToClean;
 
     private void Update()
@@ -37,6 +38,8 @@ public class Broom : MonoBehaviour
         if (other.tag == "Dirt")
         {
             objectsToClean.Remove(other.gameObject);
+            AudioManager.instance.Play("splash", Random.Range(0.8f, 1.2f));
+            Instantiate(particles, other.transform.position, Quaternion.identity);
             Destroy(other.gameObject);
         }
     }
