@@ -1,5 +1,7 @@
 # **Office Fools**
 
+![Office Fools Logo](https://raw.githubusercontent.com/pontonx/april-fools-gamejam/refs/heads/main/icon.png?token=GHSAT0AAAAAADAXQMI3YL4F22KLDT6OU7XAZ7MDAPQ)
+
 **Made for:** April Fools' Day Jam 3!
 
 **Made in:** 10 days
