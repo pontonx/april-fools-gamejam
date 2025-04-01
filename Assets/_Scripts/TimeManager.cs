@@ -36,14 +36,19 @@ public class TimeManager : MonoBehaviour
             }
         }
 
-        foreach(GameObject script in scriptsToEnable)
+        Animator[] animators = FindObjectsOfType<Animator>();
+        foreach (Animator animator in animators) animator.enabled = false;
+    }
+
+    public void EnableTasks()
+    {
+
+        foreach (GameObject script in scriptsToEnable)
         {
-            if(script.TryGetComponent<InteractableInterface>(out InteractableInterface interactable)) {
+            if (script.TryGetComponent<InteractableInterface>(out InteractableInterface interactable))
+            {
                 interactable.InteractableEnabled = true;
             }
         }
-
-        Animator[] animators = FindObjectsOfType<Animator>();
-        foreach (Animator animator in animators) animator.enabled = false;
     }
 }

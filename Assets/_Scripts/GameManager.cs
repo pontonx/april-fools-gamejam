@@ -23,6 +23,7 @@ public class GameManager : MonoBehaviour
     {
         if(finalQuestDone == 5)
         {
+            FinishQuest();
             TaskManager.instance.RemoveTask();
             TaskManager.instance.AddTask("Destroy the clock!");
             DialogueSystem.instance.CustomDialogue("Hahaha! You thought I will resume time now. You fool!");
