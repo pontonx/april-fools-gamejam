@@ -411,6 +411,16 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 7435506869835006533, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: interactableText
+      value: Talk
+      objectReference: {fileID: 0}
+    - target: {fileID: 7516546416020185761, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: m_text
+      value: David
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1139,6 +1149,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7435506869835006533, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: interactableText
+      value: Talk
+      objectReference: {fileID: 0}
+    - target: {fileID: 7516546416020185761, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: m_text
+      value: Henry
+      objectReference: {fileID: 0}
+    - target: {fileID: 7516546416020185761, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 7516546416020185761, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: m_fontStyle
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 8431115705229905267, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
         type: 3}
@@ -6982,6 +7012,16 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 7435506869835006533, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: interactableText
+      value: Talk
+      objectReference: {fileID: 0}
+    - target: {fileID: 7516546416020185761, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: m_text
+      value: Andrew
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7666,6 +7706,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7435506869835006533, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: interactableText
+      value: Talk
+      objectReference: {fileID: 0}
+    - target: {fileID: 7516546416020185761, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: m_text
+      value: Steven
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9250,6 +9300,16 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 7435506869835006533, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: interactableText
+      value: Talk
+      objectReference: {fileID: 0}
+    - target: {fileID: 7516546416020185761, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: m_text
+      value: William
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9581,6 +9641,47 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 647914455}
   m_Mesh: {fileID: -1550514412580984892, guid: cca892187dab6b74fb9f440c8ef68929, type: 3}
+--- !u!1 &666859558 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -8391222552659086748, guid: ae96aee234335364e9384b3f3082c80e,
+    type: 3}
+  m_PrefabInstance: {fileID: 832903947}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &666859562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 666859558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed2ae33ca9f3cf44fb90df6f04cb1ab4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactableText: Destroy the clock
+  interactableEnabled: 0
+--- !u!65 &666859563
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 666859558}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3.5890446, y: 2.000001, z: 2.095024}
+  m_Center: {x: 0.04873255, y: 0.7892505, z: 0.09215631}
 --- !u!1 &710273767 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2033819270090031201, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
@@ -9936,6 +10037,16 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 7435506869835006533, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: interactableText
+      value: Talk
+      objectReference: {fileID: 0}
+    - target: {fileID: 7516546416020185761, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: m_text
+      value: Anthony
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10116,6 +10227,97 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1954031435}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &832903947
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: ae96aee234335364e9384b3f3082c80e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.207
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ae96aee234335364e9384b3f3082c80e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.348
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ae96aee234335364e9384b3f3082c80e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.4099312
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ae96aee234335364e9384b3f3082c80e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.13052654
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ae96aee234335364e9384b3f3082c80e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ae96aee234335364e9384b3f3082c80e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9914449
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ae96aee234335364e9384b3f3082c80e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ae96aee234335364e9384b3f3082c80e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ae96aee234335364e9384b3f3082c80e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -165
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ae96aee234335364e9384b3f3082c80e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8391222552659086748, guid: ae96aee234335364e9384b3f3082c80e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -5568371526223589888, guid: ae96aee234335364e9384b3f3082c80e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ae96aee234335364e9384b3f3082c80e,
+        type: 3}
+      propertyPath: m_Name
+      value: Microwave
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ae96aee234335364e9384b3f3082c80e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -8391222552659086748, guid: ae96aee234335364e9384b3f3082c80e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 666859563}
+    - targetCorrespondingSourceObject: {fileID: -8391222552659086748, guid: ae96aee234335364e9384b3f3082c80e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 666859562}
+  m_SourcePrefab: {fileID: 100100000, guid: ae96aee234335364e9384b3f3082c80e, type: 3}
 --- !u!1001 &854357097
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10355,6 +10557,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7435506869835006533, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: interactableText
+      value: Talk
+      objectReference: {fileID: 0}
+    - target: {fileID: 7516546416020185761, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: m_text
+      value: Paul
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10871,6 +11083,16 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 7435506869835006533, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: interactableText
+      value: Talk
+      objectReference: {fileID: 0}
+    - target: {fileID: 7516546416020185761, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: m_text
+      value: James
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11238,6 +11460,16 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 7435506869835006533, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: interactableText
+      value: Talk
+      objectReference: {fileID: 0}
+    - target: {fileID: 7516546416020185761, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: m_text
+      value: Richard
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11504,6 +11736,16 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 7435506869835006533, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: interactableText
+      value: Talk
+      objectReference: {fileID: 0}
+    - target: {fileID: 7516546416020185761, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: m_text
+      value: Jonathan
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11597,6 +11839,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7435506869835006533, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: interactableText
+      value: Talk
+      objectReference: {fileID: 0}
+    - target: {fileID: 7516546416020185761, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: m_text
+      value: Brian
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12499,6 +12751,16 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7435506869835006533, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: interactableText
+      value: Talk
+      objectReference: {fileID: 0}
+    - target: {fileID: 7516546416020185761, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: m_text
+      value: Matthew
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12588,6 +12850,8 @@ MonoBehaviour:
   timeStopped: 0
   scriptNamesToDisable:
   - Worker
+  - RotateScript
+  - CoffeMachine
   scriptsToEnable:
   - {fileID: 1115640672}
   - {fileID: 596719003}
@@ -13690,6 +13954,16 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 7435506869835006533, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: interactableText
+      value: Talk
+      objectReference: {fileID: 0}
+    - target: {fileID: 7516546416020185761, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: m_text
+      value: Daniel
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13874,6 +14148,16 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 7435506869835006533, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: interactableText
+      value: Talk
+      objectReference: {fileID: 0}
+    - target: {fileID: 7516546416020185761, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: m_text
+      value: Bob
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13977,6 +14261,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7435506869835006533, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: interactableText
+      value: Talk
+      objectReference: {fileID: 0}
+    - target: {fileID: 7516546416020185761, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: m_text
+      value: John
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14089,6 +14383,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7435506869835006533, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: interactableText
+      value: Talk
+      objectReference: {fileID: 0}
+    - target: {fileID: 7516546416020185761, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: m_text
+      value: Mark
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15385,6 +15689,16 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 7435506869835006533, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: interactableText
+      value: Talk
+      objectReference: {fileID: 0}
+    - target: {fileID: 7516546416020185761, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: m_text
+      value: Kevin
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15735,6 +16049,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7435506869835006533, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: interactableText
+      value: Talk
+      objectReference: {fileID: 0}
+    - target: {fileID: 7516546416020185761, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: m_text
+      value: George
       objectReference: {fileID: 0}
     - target: {fileID: 9060726112755473015, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
         type: 3}
@@ -16419,6 +16743,16 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 7435506869835006533, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: interactableText
+      value: Talk
+      objectReference: {fileID: 0}
+    - target: {fileID: 7516546416020185761, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: m_text
+      value: Robert
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16620,6 +16954,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7435506869835006533, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: interactableText
+      value: Talk
+      objectReference: {fileID: 0}
+    - target: {fileID: 7516546416020185761, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: m_text
+      value: Thomas
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17001,6 +17345,16 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 7435506869835006533, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: interactableText
+      value: Talk
+      objectReference: {fileID: 0}
+    - target: {fileID: 7516546416020185761, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: m_text
+      value: Charles
+      objectReference: {fileID: 0}
     - target: {fileID: 8431115705229905267, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -17200,12 +17554,12 @@ PrefabInstance:
     - target: {fileID: 3813746190636879505, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.69
+      value: 0.814
       objectReference: {fileID: 0}
     - target: {fileID: 3813746190636879505, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.885
+      value: 0.887
       objectReference: {fileID: 0}
     - target: {fileID: 3813746190636879505, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
         type: 3}
@@ -17306,6 +17660,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7516546416020185761, guid: 55628f5a7bad18a4cac7fd4955d0d6d2,
+        type: 3}
+      propertyPath: m_text
+      value: CASPER
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -20296,3 +20655,4 @@ SceneRoots:
   - {fileID: 1225958828}
   - {fileID: 12912438}
   - {fileID: 378898542}
+  - {fileID: 832903947}
