@@ -17,7 +17,7 @@ And what better way to use such power than to pull **the greatest office pranks 
 ✅ Rotate a monitor  
 ✅ Toss out a co-worker’s mouse  
 ✅ Infect someone's computer  
-✅ The possibilities are endless!  
+✅ Turn off someone's computer
 
 But as you **wreak havoc**, something feels… off.  
 👀 Your co-workers seem a little **too frozen**.  
