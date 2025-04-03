@@ -1,4 +1,4 @@
-![Office Fools Logo]([https://raw.githubusercontent.com/pontonx/april-fools-gamejam/refs/heads/main/icon.png?token=GHSAT0AAAAAADAXQMI3YL4F22KLDT6OU7XAZ7MDAPQ](https://github.com/pontonx/april-fools-gamejam/blob/5a8b03496ec5158a185f827b8b838e62c944ae5e/icon.png))
+![Office Fools Logo](https://github.com/pontonx/april-fools-gamejam/blob/5a8b03496ec5158a185f827b8b838e62c944ae5e/icon.png)
 
 **Made for:** April Fools' Day Jam 3!
 
